@@ -1,6 +1,6 @@
 import { Box, Text, VStack, useColorModeValue } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-//import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 const MatrixBackground = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
